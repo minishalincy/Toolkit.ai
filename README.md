@@ -45,7 +45,7 @@ Secure login and subscription management is powered by *Clerk, while **Cloudinar
 
 ```bash
 # 1. Clone the Repository
-git clone https://github.com/your-username/toolkit-ai.git
+git clone [https://github.com/your-username/toolkit-ai.git](https://github.com/minishalincy/Toolkit.ai.git)
 cd toolkit-ai
 
 # 2. Install Dependencies
