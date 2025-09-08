@@ -31,10 +31,10 @@ const Hero = () => {
           className='flex items-center gap-2 bg-primary text-white px-8 py-3 rounded-full shadow-lg hover:shadow-xl transition-all hover:scale-105 active:scale-95'>
           <Sparkles size={18}/> Start creating now
         </button>
-        <button 
+        {/* <button 
           className='flex items-center gap-2 bg-white px-8 py-3 rounded-full border border-gray-300 shadow-sm hover:shadow-md transition-all hover:scale-105 active:scale-95'>
           <PlayCircle size={18}/> Watch demo
-        </button>
+        </button> */}
       </div>
 
       {/* Scroll Indicator */}
