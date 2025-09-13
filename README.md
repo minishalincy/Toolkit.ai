@@ -1,47 +1,51 @@
-# Toolkit.ai – Unified AI SaaS Platform
+# Toolkit.ai – Unified AI SaaS Platform  
 
 Toolkit.ai is a *SaaS platform* that unifies multiple *AI-powered tools* into a single application.  
 It allows users to *generate blogs/articles, create images, remove objects/backgrounds, and analyze resumes* — all in one place.  
 
-Secure login and subscription management is powered by *Clerk, while **Cloudinary* handles media storage and *Neon* provides a serverless PostgreSQL database for seamless data management.  
+Secure login and subscription management is powered by *Clerk*, while *Cloudinary* handles media storage and *Neon* provides a serverless PostgreSQL database for seamless data management.  
 
 ---
 
-## Features
-
-- AI Blog & Article Generation – create high-quality content instantly.  
-- AI Image Creation – generate creative images from text prompts.  
-- Object/Background Removal – edit and enhance images effortlessly.  
-- Resume Analyzer – AI-powered resume feedback & suggestions.  
-- Community Dashboard – view shared prompts and uploaded creations.  
-- Authentication & Payments – managed via Clerk.  
-- Cloud Storage – Firebase for user uploads and assets.  
-- Serverless DB – Neon PostgreSQL for scalability.  
+## 🚀 Live Demo  
+🔗 [Toolkit.ai Live](https://toolkit-ai-six.vercel.app/)  
 
 ---
 
-## 🛠 Tech Stack
+## ✨ Features  
 
-*Frontend*
+- **AI Blog & Article Generation** – create high-quality content instantly.  
+- **AI Image Creation** – generate creative images from text prompts.  
+- **Object/Background Removal** – edit and enhance images effortlessly.  
+- **Resume Analyzer** – AI-powered resume feedback & suggestions.  
+- **Community Dashboard** – view shared prompts and uploaded creations.  
+- **Authentication & Payments** – managed via Clerk.  
+- **Cloud Storage** – Cloudinary for user uploads and assets.  
+- **Serverless DB** – Neon PostgreSQL for scalability.  
+
+---
+
+## 🛠 Tech Stack  
+
+**Frontend**  
 - React.js (Vite)  
 - Tailwind CSS  
 
-*Backend*
+**Backend**  
 - Node.js + Express  
 - PostgreSQL with DrizzleORM (Neon serverless)  
 
-*Auth & Payments*
+**Auth & Payments**  
 - Clerk  
 
-*Cloud & APIs*
-- Firebase (Image storage)  
+**Cloud & APIs**  
+- Cloudinary (Media storage & hosting)  
 - Gemini API (AI content generation)  
 - ClipDrop API (Background/Object removal)  
-- Cloudinary (Optional: media hosting)  
 
 ---
 
-## ⚙ Installation & Setup
+## ⚙ Installation & Setup  
 
 ```bash
 # 1. Clone the Repository
