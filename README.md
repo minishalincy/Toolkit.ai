@@ -7,12 +7,12 @@ Secure login and subscription management is powered by *Clerk*, while *Cloudinar
 
 ---
 
-## 🚀 Live Demo  
-🔗 [Toolkit.ai Live](https://toolkit-ai-six.vercel.app/)  
+## Live Demo  
+ [Toolkit.ai Live](https://toolkit-ai-six.vercel.app/)  
 
 ---
 
-## ✨ Features  
+## Features  
 
 - **AI Blog & Article Generation** – create high-quality content instantly.  
 - **AI Image Creation** – generate creative images from text prompts.  
@@ -45,7 +45,7 @@ Secure login and subscription management is powered by *Clerk*, while *Cloudinar
 
 ---
 
-## ⚙ Installation & Setup  
+## Installation & Setup  
 
 ```bash
 # 1. Clone the Repository
@@ -70,7 +70,7 @@ CLOUDINARY_CLOUD_NAME=your_cloud_name
 CLOUDINARY_API_KEY=your_cloudinary_api_key
 CLOUDINARY_API_SECRET=your_cloudinary_secret
 
-# ⚠ Important: Never push .env to GitHub. Add it to .gitignore.
+#  Important: Never push .env to GitHub. Add it to .gitignore.
 
 # 4. Run the App
 npm run dev
