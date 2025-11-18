@@ -24,7 +24,7 @@ const BlogTitles = () => {
     const { getToken } = useAuth()
 
 
-    // form submission
+    
     const onSubmitHandler = async (e) => {
         e.preventDefault()
         try {
@@ -51,7 +51,7 @@ const BlogTitles = () => {
 
     return (
         <div className="h-full overflow-y-scroll p-6 grid grid-cols-1 lg:grid-cols-2 gap-6">
-            {/* left column */}
+            
             <form
                 onSubmit={onSubmitHandler}
                 className="w-full p-4 bg-white rounded-lg border border-gray-200"
@@ -96,7 +96,7 @@ const BlogTitles = () => {
                 </button>
             </form>
 
-            {/* right column */}
+           
             <div className="w-full p-4 bg-white rounded-lg flex flex-col border border-gray-300 min-h-96 ">
                 <div className="flex items-center gap-3">
                     <Hash className="w-5 h-5 text-primary" />
